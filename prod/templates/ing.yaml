@@ -15,7 +15,7 @@ spec:
   - http:
       paths:
       - path: /toolkit
-        pathType: prefix
+        pathType: Prefix
         backend:
           service:
            name: {{ template "fullname" . }}
